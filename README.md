@@ -1,6 +1,6 @@
 # swagger-openapi-utils
 
-swagger 生成 service 文件时，需要对数据做处理。
+swagger 生成 service 文件时，可能需要对数据做处理。
 
 ## 安装
 ```node
@@ -9,7 +9,7 @@ npm install swagger-openapi-utils -D
 
 ## 使用
 ```js
-import {camelCase, getPathName, getTagName, openApiDataHandler} from "swagger-openapi-utils"
+import { camelCase, getPathName, getTagName, openApiDataHandler } from "swagger-openapi-utils"
 ```
 
 | 名称           | 类型 | 说明               |
